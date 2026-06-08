@@ -13,19 +13,19 @@
   :root {
     --red: #3D1C02;
     --red-light: #F5ECD9;
-    --gold: #F5A623;
-    --gold-light: #FFF8ED;
-    --green: #3AAB68;
-    --green-light: #EDF9F3;
-    --pink: #F77DBD;
-    --pink-light: #FFF0F8;
-    --teal: #2BBFBF;
-    --teal-light: #EEF9F9;
-    --cream: #FFFDF7;
-    --dark: #1C1207;
-    --text: #2D2010;
-    --muted: #7A6A55;
-    --border: #EDE8DE;
+    --gold: #8B5E3C;
+    --gold-light: #F5ECD9;
+    --green: #6B4C2A;
+    --green-light: #F5ECD9;
+    --pink: #C4956A;
+    --pink-light: #FAF0E6;
+    --teal: #8B5E3C;
+    --teal-light: #F5ECD9;
+    --cream: #FDF6EC;
+    --dark: #2C1A0E;
+    --text: #3D2B1F;
+    --muted: #8B7355;
+    --border: #E8D5B7;
     --radius: 16px;
     --radius-sm: 10px;
     --shadow: 0 4px 24px rgba(0,0,0,0.08);
@@ -35,7 +35,7 @@
 
   body {
     font-family: 'Nunito', sans-serif;
-    background: #FDF6FC;
+    background: var(--cream);
     color: var(--text);
     line-height: 1.6;
   }
@@ -78,7 +78,7 @@
 
   /* ── HERO ── */
   .hero {
-    background: linear-gradient(135deg, #FFF5E0 0%, #FFEAEA 50%, #FFF0F8 100%);
+    background: linear-gradient(135deg, #FDF6EC 0%, #F5ECD9 50%, #EDD9B8 100%);
     padding: 5rem 2rem 4rem;
     text-align: center;
     position: relative; overflow: hidden;
@@ -389,7 +389,7 @@
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    <img src="kkbakery3og.jpg" style="height:46px; width:46px; border-radius:10px; object-fit:cover;"/>
+    <img src="kkbakery3og.jpg" style="height:50px;width:auto;border-radius:8px;object-fit:contain;"/>
   </div>
   <ul class="nav-links">
     <li><a href="#menu">Menu</a></li>
@@ -418,36 +418,36 @@
 
 <!-- HIGHLIGHTS -->
 <div class="highlights">
-  <a href="#sandwich" class="highlight-card" style="text-decoration:none; color:inherit;">
-    <div class="emoji">🥐</div>
-    <strong>Croissant Sandwiches</strong>
-    <span>Savory & satisfying</span>
-</a>
-    <a href="#tart" class="highlight-card" style= "text-decoration:none; color:inherit;">
-    <div class="emoji">&#x1F9C0</div>
-    <strong>Cheese Tarts</strong>
-    <span>4 dreamy flavors</span>
-    </a>
-  <div class="highlight-card">
-    <div class="emoji">🧋</div>
-    <strong>Milk Teas & Drinks</strong>
-    <span>Boba, fruit teas & more</span>
-  </div>
-  <div class="highlight-card">
-    <div class="emoji">🍰</div>
-    <strong>Slice Cakes</strong>
-    <span>7 decadent options</span>
-  </div>
-  <div class="highlight-card">
-    <div class="emoji">🍞</div>
-    <strong>Fresh Breads</strong>
-    <span>Baked every morning</span>
-  </div>
-  <div class="highlight-card">
-    <div class="emoji">☕</div>
-    <strong>Coffee & Smoothies</strong>
-    <span>Espresso & blends</span>
-  </div>
+  <a href="#sandwich" class="highlight-card" style="text-decoration:none;color:inherit;">
+        <div class="emoji">🥐</div>
+        <strong>Croissant Sandwiches</strong>
+        <span>Savory & satisfying</span>
+      </a>
+  <a href="#tart" class="highlight-card" style="text-decoration:none;color:inherit;">
+        <div class="emoji">🫧</div>
+        <strong>Cheese Tarts</strong>
+        <span>4 dreamy flavors</span>
+      </a>
+  <a href="#menu" class="highlight-card" style="text-decoration:none;color:inherit;">
+        <div class="emoji">🧋</div>
+        <strong>Milk Teas & Drinks</strong>
+        <span>Boba, fruit teas & more</span>
+      </a>
+  <a href="#cake" class="highlight-card" style="text-decoration:none;color:inherit;">
+        <div class="emoji">🍰</div>
+        <strong>Slice Cakes</strong>
+        <span>7 decadent options</span>
+      </a>
+  <a href="#bread" class="highlight-card" style="text-decoration:none;color:inherit;">
+        <div class="emoji">🍞</div>
+        <strong>Fresh Breads</strong>
+        <span>Baked every morning</span>
+      </a>
+  <a href="#menu" class="highlight-card" style="text-decoration:none;color:inherit;">
+        <div class="emoji">☕</div>
+        <strong>Coffee & Smoothies</strong>
+        <span>Espresso & blends</span>
+      </a>
 </div>
 
 <hr class="divider"/>
@@ -473,7 +473,7 @@
   <div class="menu-grid" data-cat="new">
     <div class="menu-card" data-cat="new">
       <div class="new-badge">New</div>
-      <div class="menu-card-emoji">🍌</div>
+      
       <div class="menu-card-name">Banana Pudding Cake</div>
       <div class="menu-card-desc">A creamy, dreamy banana pudding cake — soft layers with rich banana flavor.</div>
       <div class="menu-card-footer">
@@ -483,7 +483,7 @@
     </div>
     <div class="menu-card" data-cat="new">
       <div class="new-badge">New</div>
-      <div class="menu-card-emoji">🍡</div>
+      
       <div class="menu-card-name">Mochi & Pork Floss Xiaobei (4pcs)</div>
       <div class="menu-card-desc">Soft mochi paired with savory pork floss — a uniquely satisfying bite.</div>
       <div class="menu-card-footer">
@@ -493,7 +493,7 @@
     </div>
     <div class="menu-card" data-cat="new">
       <div class="new-badge">New</div>
-      <div class="menu-card-emoji">🥛</div>
+      
       <div class="menu-card-name">Steam Milk Egg Pudding</div>
       <div class="menu-card-desc">Silky-smooth steamed milk egg pudding — delicate and lightly sweet.</div>
       <div class="menu-card-footer">
@@ -507,7 +507,7 @@
   <h2 class="menu-section-title" data-cat="tart" style="border-color: var(--gold);">🫧 Cheese Tarts</h2>
   <div class="menu-grid" data-cat="tart">
     <div class="menu-card" data-cat="tart">
-      <div class="menu-card-emoji">🟣</div>
+      
       <div class="menu-card-name">Roasted Tea Purple Yam Taro Cheese Tart</div>
       <div class="menu-card-desc">Earthy taro and purple yam with roasted tea notes in a creamy cheese tart.</div>
       <div class="menu-card-footer">
@@ -516,7 +516,7 @@
       </div>
     </div>
     <div class="menu-card" data-cat="tart">
-      <div class="menu-card-emoji">☕</div>
+      
       <div class="menu-card-name">Mocha Cheese Tart</div>
       <div class="menu-card-desc">Bold mocha flavor meets silky cheese filling in a buttery tart shell.</div>
       <div class="menu-card-footer">
@@ -525,7 +525,7 @@
       </div>
     </div>
     <div class="menu-card" data-cat="tart">
-      <div class="menu-card-emoji">🫧</div>
+      
       <div class="menu-card-name">Original Cheese Tart</div>
       <div class="menu-card-desc">Classic creamy cheese filling in a perfectly baked tart shell.</div>
       <div class="menu-card-footer">
@@ -534,7 +534,7 @@
       </div>
     </div>
     <div class="menu-card" data-cat="tart">
-      <div class="menu-card-emoji">🍪</div>
+      
       <div class="menu-card-name">Brown Sugar Sea Salt Oreo Cheese Tart</div>
       <div class="menu-card-desc">Sweet brown sugar, salty sea salt, and crunchy Oreo in a cheese tart.</div>
       <div class="menu-card-footer">
@@ -543,7 +543,7 @@
       </div>
     </div>
     <div class="menu-card" data-cat="tart">
-      <div class="menu-card-emoji">🫧🫧🫧🫧</div>
+      
       <div class="menu-card-name">Cheese Tart 4pcs</div>
       <div class="menu-card-desc">Pick your favorites — a box of four cheese tarts. Best value!</div>
       <div class="menu-card-footer">
@@ -557,7 +557,7 @@
   <h2 class="menu-section-title" data-cat="new" style="border-color: var(--pink);">🎁 Special Offers</h2>
   <div class="menu-grid" data-cat="new">
     <div class="menu-card" data-cat="new" style="border-color: var(--pink); background: var(--pink-light);">
-      <div class="menu-card-emoji">🎲</div>
+      
       <div class="menu-card-name">Bread Blind Box (3 Random Breads)</div>
       <div class="menu-card-desc">Surprise yourself! Includes 3 random breads — the fun is in the mystery!</div>
       <div class="menu-card-footer">
@@ -566,7 +566,7 @@
       </div>
     </div>
     <div class="menu-card" data-cat="new" style="border-color: var(--pink); background: var(--pink-light);">
-      <div class="menu-card-emoji">❤️</div>
+      
       <div class="menu-card-name">Five Heart Bread (5 Heart-Shaped Brioche Buns)</div>
       <div class="menu-card-desc">Coconut, chocolate, coffee, pandan & earl grey tea — five heart-shaped brioche buns.</div>
       <div class="menu-card-footer">
@@ -580,67 +580,67 @@
   <h2 class="menu-section-title" data-cat="sandwich" style="border-color: var(--gold);">🥐 Croissant Sandwiches</h2>
   <div class="menu-grid" data-cat="sandwich">
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🫐</div>
+      
       <div class="menu-card-name">Blueberry Peanut Butter Sandwich</div>
       <div class="menu-card-desc">Sweet blueberry jam and creamy peanut butter on a flaky croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Blueberry Peanut Butter Sandwich', 5.50)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🌽</div>
+      
       <div class="menu-card-name">Corn Cheese Ham w/ Mashed Potatoes</div>
       <div class="menu-card-desc">Corn, cheese, ham, and creamy mashed potatoes in a buttery croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.00</span><button class="add-btn" onclick="addToCart('Corn Cheese Ham w/ Mashed Potatoes Sandwich', 7.00)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🧋</div>
+      
       <div class="menu-card-name">Boba Milk Tea Sandwich</div>
       <div class="menu-card-desc">Unique boba milk tea flavor packed into a creative croissant sandwich.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.00</span><button class="add-btn" onclick="addToCart('Boba Milk Tea Sandwich', 7.00)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🐟</div>
+      
       <div class="menu-card-name">Corn Cheese Tuna Sandwich</div>
       <div class="menu-card-desc">Corn, melted cheese, and savory tuna layered in a flaky croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.50</span><button class="add-btn" onclick="addToCart('Corn Cheese Tuna Sandwich', 7.50)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🥩</div>
+      
       <div class="menu-card-name">Beef w/ Cheese & Pickles Sandwich</div>
       <div class="menu-card-desc">Savory beef, melted cheese, and tangy pickles on a buttery croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.50</span><button class="add-btn" onclick="addToCart('Beef w/ Cheese & Pickles Sandwich', 7.50)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🌭</div>
+      
       <div class="menu-card-name">Hotdog, Egg & Cheese</div>
       <div class="menu-card-desc">Classic combo of hotdog, egg, and melted cheese on a flaky croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.25</span><button class="add-btn" onclick="addToCart('Hotdog, Egg & Cheese Sandwich', 6.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🍖</div>
+      
       <div class="menu-card-name">Ham, Egg & Cheese</div>
       <div class="menu-card-desc">Ham, cheddar cheese, and scrambled eggs layered inside a buttery croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.25</span><button class="add-btn" onclick="addToCart('Ham, Egg & Cheese Sandwich', 6.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🥓</div>
+      
       <div class="menu-card-name">Bacon, Egg & Cheese</div>
       <div class="menu-card-desc">Crispy bacon, fried egg, and melted cheese on a flaky croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.25</span><button class="add-btn" onclick="addToCart('Bacon, Egg & Cheese Sandwich', 6.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🌭</div>
+      
       <div class="menu-card-name">Cheese Hot Dog Meat Floss Sandwich</div>
       <div class="menu-card-desc">Hot dog with cheese and savory meat floss in a buttery croissant.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.00</span><button class="add-btn" onclick="addToCart('Cheese Hot Dog Meat Floss Sandwich', 7.00)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">🟣</div>
+      
       <div class="menu-card-name">Meat Floss Taro Mochi Sandwich</div>
       <div class="menu-card-desc">Savory meat floss with soft taro mochi in a unique croissant sandwich.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.00</span><button class="add-btn" onclick="addToCart('Meat Floss Taro Mochi Sandwich', 7.00)">+</button></div>
     </div>
     <div class="menu-card" data-cat="sandwich">
-      <div class="menu-card-emoji">💛</div>
+      
       <div class="menu-card-name">Cheese Durian Sandwich</div>
       <div class="menu-card-desc">Bold durian and cheese for the adventurous palate. A true flavor experience!</div>
       <div class="menu-card-footer"><span class="menu-card-price">$8.00</span><button class="add-btn" onclick="addToCart('Cheese Durian Sandwich', 8.00)">+</button></div>
@@ -651,43 +651,43 @@
   <h2 class="menu-section-title" data-cat="cake" style="border-color: var(--pink);">🍰 Slice Cakes</h2>
   <div class="menu-grid" data-cat="cake">
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🍪</div>
+      
       <div class="menu-card-name">Oreo Cheese Cake</div>
       <div class="menu-card-desc">Creamy cheesecake with crunchy Oreo crust and filling.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Oreo Cheese Cake', 4.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🍫</div>
+      
       <div class="menu-card-name">Chocolate Cake</div>
       <div class="menu-card-desc">Rich, decadent chocolate cake — a classic crowd pleaser.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$5.25</span><button class="add-btn" onclick="addToCart('Chocolate Cake', 5.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🫐</div>
+      
       <div class="menu-card-name">Blueberry Cheese Cake Mousse</div>
       <div class="menu-card-desc">Airy mousse cheesecake with a vibrant blueberry topping.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.95</span><button class="add-btn" onclick="addToCart('Blueberry Cheese Cake Mousse', 6.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🍋</div>
+      
       <div class="menu-card-name">Lemon Cheese Cake Mousse</div>
       <div class="menu-card-desc">Zesty lemon and creamy cheesecake mousse — light and refreshing.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.25</span><button class="add-btn" onclick="addToCart('Lemon Cheese Cake Mousse', 7.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🍵</div>
+      
       <div class="menu-card-name">Matcha Strawberry Basque</div>
       <div class="menu-card-desc">Earthy matcha with sweet strawberry in a Basque burnt cheesecake.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$8.95</span><button class="add-btn" onclick="addToCart('Matcha Strawberry Basque', 8.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🥭</div>
+      
       <div class="menu-card-name">Mango & Sago Crispy Box Cake</div>
       <div class="menu-card-desc">Fresh mango, sago pearls, and a crispy base — tropical and refreshing.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$8.25</span><button class="add-btn" onclick="addToCart('Mango & Sago Crispy Box Cake', 8.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cake">
-      <div class="menu-card-emoji">🍫</div>
+      
       <div class="menu-card-name">Tiramisu Cake</div>
       <div class="menu-card-desc">Classic Italian tiramisu — espresso-soaked layers with mascarpone cream.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$9.50</span><button class="add-btn" onclick="addToCart('Tiramisu Cake', 9.50)">+</button></div>
@@ -698,97 +698,97 @@
   <h2 class="menu-section-title" data-cat="bread" style="border-color: var(--gold);">🍞 Fresh Bread</h2>
   <div class="menu-grid" data-cat="bread">
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🥥</div>
+      
       <div class="menu-card-name">Coconut Raisin Bun</div>
       <div class="menu-card-desc">Shredded coconut and sweet raisins in a soft, fluffy bun.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Coconut Raisin Bun', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🔴</div>
+      
       <div class="menu-card-name">Japanese Red Bean Bun</div>
       <div class="menu-card-desc">Fluffy bun filled with mildly sweet red bean paste.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Japanese Red Bean Bun', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🍫</div>
+      
       <div class="menu-card-name">Chocolate Butter Milk Bread</div>
       <div class="menu-card-desc">Rich chocolate swirls and creamy butter in soft milk bread.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.95</span><button class="add-btn" onclick="addToCart('Chocolate Butter Milk Bread', 2.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">☕</div>
+      
       <div class="menu-card-name">Coffee Butter Milk Bread</div>
       <div class="menu-card-desc">Rich coffee flavor with a hint of buttery milk baked into soft bread.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.95</span><button class="add-btn" onclick="addToCart('Coffee Butter Milk Bread', 2.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🌿</div>
+      
       <div class="menu-card-name">Garlic Parsley Loh Sung Bun</div>
       <div class="menu-card-desc">Savory garlic and fresh parsley infused into a soft bun.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Garlic Parsley Loh Sung Bun', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🍵</div>
+      
       <div class="menu-card-name">Earl Grey Tea Butter Milk Bread</div>
       <div class="menu-card-desc">Delicate earl grey tea essence in a buttery, fluffy milk bread.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.95</span><button class="add-btn" onclick="addToCart('Earl Grey Tea Butter Milk Bread', 2.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🟢</div>
+      
       <div class="menu-card-name">Pandan Butter Milk Bread</div>
       <div class="menu-card-desc">Fluffy bread with the distinct aroma of pandan and rich buttermilk.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$3.25</span><button class="add-btn" onclick="addToCart('Pandan Butter Milk Bread', 3.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🌭</div>
+      
       <div class="menu-card-name">Onion Cheese & Hot Dog</div>
       <div class="menu-card-desc">Hot dog wrapped in bread, topped with grated cheese and green onions.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Onion Cheese & Hot Dog Bread', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🍖</div>
+      
       <div class="menu-card-name">Onion Ham & Cheese</div>
       <div class="menu-card-desc">Savory ham, melted cheese, and onions baked on top of a soft bun.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Onion Ham & Cheese Bread', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🟡</div>
+      
       <div class="menu-card-name">Soft Custard Bread</div>
       <div class="menu-card-desc">Fluffy bread filled with rich, creamy custard — soft in every bite.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Soft Custard Bread', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🧀</div>
+      
       <div class="menu-card-name">Cheese Meat Floss Bread</div>
       <div class="menu-card-desc">Soft bread topped with cheese and savory meat floss inside.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Cheese Meat Floss Bread', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">❤️</div>
+      
       <div class="menu-card-name">Heart Style Coconut Bun</div>
       <div class="menu-card-desc">A heart-shaped bun with a sweet, fragrant coconut filling inside.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.50</span><button class="add-btn" onclick="addToCart('Heart Style Coconut Bun', 2.50)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🥬</div>
+      
       <div class="menu-card-name">Steam Vegetable & Meat Bun</div>
       <div class="menu-card-desc">Soft steamed bun stuffed with mixed vegetables and savory meat filling.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$1.20</span><button class="add-btn" onclick="addToCart('Steam Vegetable & Meat Bun', 1.20)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🍖</div>
+      
       <div class="menu-card-name">Steam BBQ Pork Bun</div>
       <div class="menu-card-desc">Fluffy steamed buns filled with sweet and savory barbecue pork.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$1.35</span><button class="add-btn" onclick="addToCart('Steam BBQ Pork Bun', 1.35)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🧈</div>
+      
       <div class="menu-card-name">Boh Loh Pastry Butter Milk Bun</div>
       <div class="menu-card-desc">Classic pineapple bun topped with a sweet crust, filled with creamy butter milk.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.65</span><button class="add-btn" onclick="addToCart('Boh Loh Pastry Butter Milk Bun', 2.65)">+</button></div>
     </div>
     <div class="menu-card" data-cat="bread">
-      <div class="menu-card-emoji">🟣</div>
+      
       <div class="menu-card-name">Taro Bun</div>
       <div class="menu-card-desc">Soft, sweet brioche bun filled with smooth taro paste.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$2.50</span><button class="add-btn" onclick="addToCart('Taro Bun', 2.50)">+</button></div>
@@ -799,67 +799,67 @@
   <h2 class="menu-section-title" data-cat="cookie" style="border-color: var(--green);">🍪 Cookies & Pastries</h2>
   <div class="menu-grid" data-cat="cookie">
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🍓</div>
+      
       <div class="menu-card-name">Strawberry Pastry (5pcs)</div>
       <div class="menu-card-desc">Buttery layers with sweet strawberry paste filling. 5 pieces per box.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.99</span><button class="add-btn" onclick="addToCart('Strawberry Pastry Box', 7.99)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🍇</div>
+      
       <div class="menu-card-name">Raisin Cookies (6pcs)</div>
       <div class="menu-card-desc">Buttery cookies studded with sweet, chewy raisins. 6 per box.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.95</span><button class="add-btn" onclick="addToCart('Raisin Cookies', 6.95)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🌰</div>
+      
       <div class="menu-card-name">Walnut Cookies (5pcs)</div>
       <div class="menu-card-desc">Crunchy cookies with chopped walnuts for a nutty, satisfying bite. 5 per box.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.50</span><button class="add-btn" onclick="addToCart('Walnut Cookies', 6.50)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🍵</div>
+      
       <div class="menu-card-name">Longjing Green Tea Pastry (5pcs)</div>
       <div class="menu-card-desc">Delicate green tea pastries with a refined, earthy flavor. 5 per box.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$6.99</span><button class="add-btn" onclick="addToCart('Longjing Green Tea Pastry Box', 6.99)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🟢</div>
+      
       <div class="menu-card-name">Pandan Coconut Pastry (5pcs)</div>
       <div class="menu-card-desc">Sweet aromatic pandan and coconut in a flaky pastry. 5 per box.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.99</span><button class="add-btn" onclick="addToCart('Pandan Coconut Pastry Box', 7.99)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🍵</div>
+      
       <div class="menu-card-name">Longjing Green Tea Pastry (1pc)</div>
       <div class="menu-card-desc">Single piece of delicate green tea pastry.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$1.50</span><button class="add-btn" onclick="addToCart('Longjing Green Tea Pastry (1pc)', 1.50)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🟢</div>
+      
       <div class="menu-card-name">Pandan Coconut Pastry (1pc)</div>
       <div class="menu-card-desc">Single piece of aromatic pandan coconut pastry.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$1.80</span><button class="add-btn" onclick="addToCart('Pandan Coconut Pastry (1pc)', 1.80)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🍓</div>
+      
       <div class="menu-card-name">Strawberry Pastry (1pc)</div>
       <div class="menu-card-desc">Single piece of buttery strawberry pastry.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$1.80</span><button class="add-btn" onclick="addToCart('Strawberry Pastry (1pc)', 1.80)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🎊</div>
+      
       <div class="menu-card-name">Fortune Pastry Mix</div>
       <div class="menu-card-desc">A mix of Longjing Green Tea, Pandan Coconut & Strawberry pastries.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$9.90</span><button class="add-btn" onclick="addToCart('Fortune Pastry Mix', 9.90)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🌈</div>
+      
       <div class="menu-card-name">Macarons (6pcs)</div>
       <div class="menu-card-desc">Six colorful French macarons — light, crisp shells with creamy filling.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$5.75</span><button class="add-btn" onclick="addToCart('Macarons (6pcs)', 5.75)">+</button></div>
     </div>
     <div class="menu-card" data-cat="cookie">
-      <div class="menu-card-emoji">🍦</div>
+      
       <div class="menu-card-name">Mung Bean Ice Cream (14pcs/Box)</div>
       <div class="menu-card-desc">14 pieces of mung bean ice cream — sweet, creamy, and uniquely satisfying.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$12.95</span><button class="add-btn" onclick="addToCart('Mung Bean Ice Cream (14pcs)', 12.95)">+</button></div>
@@ -871,96 +871,96 @@
 
   <div style="font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--muted); margin: 1rem 0 0.75rem; font-style:italic;">🍋 Lemon Tea</div>
   <div class="menu-grid" data-cat="drink">
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🫖</div><div class="menu-card-name">Oolong Lemon Tea</div><div class="menu-card-desc">Smooth oolong tea with a refreshing squeeze of lemon.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Oolong Lemon Tea', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍇</div><div class="menu-card-name">Green Grapes Lemon Tea</div><div class="menu-card-desc">Light and fruity green grape tea with a citrusy lemon twist.</div><div class="menu-card-footer"><span class="menu-card-price">$6.00</span><button class="add-btn" onclick="addToCart('Green Grapes Lemon Tea', 6.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍑</div><div class="menu-card-name">Peach Lemon Tea</div><div class="menu-card-desc">Sweet peach flavor with bright lemon tea for a refreshing sip.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Peach Lemon Tea', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌸</div><div class="menu-card-name">Jasmine Lemon Tea</div><div class="menu-card-desc">Floral jasmine tea brightened with fresh lemon.</div><div class="menu-card-footer"><span class="menu-card-price">$6.00</span><button class="add-btn" onclick="addToCart('Jasmine Lemon Tea', 6.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌈</div><div class="menu-card-name">Colorful Fruit Tea</div><div class="menu-card-desc">A vibrant blend of colorful fruits in a refreshing tea base.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Colorful Fruit Tea', 5.50)">+</button></div></div>
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
   </div>
 
   <div style="font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--muted); margin: 1.5rem 0 0.75rem; font-style:italic;">🥛 Milk Tea</div>
   <div class="menu-grid" data-cat="drink">
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍑</div><div class="menu-card-name">Peach Milk Tea</div><div class="menu-card-desc">Sweet peach with creamy light milk tea.</div><div class="menu-card-footer"><span class="menu-card-price">$5.75</span><button class="add-btn" onclick="addToCart('Peach Milk Tea', 5.75)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌸</div><div class="menu-card-name">Jasmine Milk Tea</div><div class="menu-card-desc">Floral jasmine paired with creamy light milk tea.</div><div class="menu-card-footer"><span class="menu-card-price">$6.25</span><button class="add-btn" onclick="addToCart('Jasmine Milk Tea', 6.25)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🫖</div><div class="menu-card-name">Oolong Milk Tea</div><div class="menu-card-desc">Classic oolong with smooth creamy milk tea.</div><div class="menu-card-footer"><span class="menu-card-price">$5.75</span><button class="add-btn" onclick="addToCart('Oolong Milk Tea', 5.75)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🧋</div><div class="menu-card-name">HK Style Boba Milk Tea</div><div class="menu-card-desc">Hong Kong-style milk tea with chewy boba pearls.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('HK Style Boba Milk Tea', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🔴</div><div class="menu-card-name">HK Style Red Bean Milk Tea</div><div class="menu-card-desc">Classic HK milk tea with sweet red bean.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('HK Style Red Bean Milk Tea', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🧣</div><div class="menu-card-name">Silk-Stocking Milk Tea</div><div class="menu-card-desc">The iconic Hong Kong pantyhose milk tea — extra smooth and rich.</div><div class="menu-card-footer"><span class="menu-card-price">$7.50</span><button class="add-btn" onclick="addToCart('Silk-Stocking Milk Tea', 7.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🎂</div><div class="menu-card-name">Cake Flavor Boba Milk Tea</div><div class="menu-card-desc">Dessert-inspired cake flavor milk tea with boba pearls.</div><div class="menu-card-footer"><span class="menu-card-price">$6.00</span><button class="add-btn" onclick="addToCart('Cake Flavor Boba Milk Tea', 6.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🟤</div><div class="menu-card-name">Brown Sugar Boba Milk Tea</div><div class="menu-card-desc">Rich brown sugar syrup with chewy boba and creamy milk tea.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Brown Sugar Boba Milk Tea', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍫</div><div class="menu-card-name">Chocolate Boba Milk (No Tea)</div><div class="menu-card-desc">Creamy chocolate milk with boba pearls — no tea base.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Chocolate Boba Milk', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🟤</div><div class="menu-card-name">Brown Sugar Boba Milk (No Tea)</div><div class="menu-card-desc">Sweet brown sugar milk with boba — no tea base.</div><div class="menu-card-footer"><span class="menu-card-price">$6.00</span><button class="add-btn" onclick="addToCart('Brown Sugar Boba Milk', 6.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🫧</div><div class="menu-card-name">Brown Sugar Boba Milk Tea w/ Cheese Foam</div><div class="menu-card-desc">Brown sugar milk tea with boba and a creamy salted cheese foam top.</div><div class="menu-card-footer"><span class="menu-card-price">$6.50</span><button class="add-btn" onclick="addToCart('Brown Sugar Boba Milk Tea w/ Cheese Foam', 6.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🎂</div><div class="menu-card-name">Cake Flavor Boba Milk Tea w/ Cheese Foam</div><div class="menu-card-desc">Cake flavor milk tea with boba and cheese foam topping.</div><div class="menu-card-footer"><span class="menu-card-price">$6.50</span><button class="add-btn" onclick="addToCart('Cake Flavor Boba Milk Tea w/ Cheese Foam', 6.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍫</div><div class="menu-card-name">Brown Sugar Chocolate Boba Milk Tea w/ Cheese Foam</div><div class="menu-card-desc">Chocolate and brown sugar boba milk tea topped with cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$6.50</span><button class="add-btn" onclick="addToCart('Brown Sugar Chocolate Boba Milk Tea w/ Cheese Foam', 6.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🟣</div><div class="menu-card-name">Cheese Foam Taro Mochi Milk Tea</div><div class="menu-card-desc">Taro mochi milk tea topped with a creamy salted cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$6.50</span><button class="add-btn" onclick="addToCart('Cheese Foam Taro Mochi Milk Tea', 6.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌾</div><div class="menu-card-name">Cheese Foam Soy Milk w/ Black Glutinous Rice</div><div class="menu-card-desc">Creamy soy milk with chewy black glutinous rice and cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$7.00</span><button class="add-btn" onclick="addToCart('Cheese Foam Soy Milk w/ Black Glutinous Rice', 7.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🥛</div><div class="menu-card-name">HK Style Milk Tea</div><div class="menu-card-desc">Classic Hong Kong-style creamy milk tea — smooth and satisfying.</div><div class="menu-card-footer"><span class="menu-card-price">$5.00</span><button class="add-btn" onclick="addToCart('HK Style Milk Tea', 5.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍫</div><div class="menu-card-name">Hot Chocolate</div><div class="menu-card-desc">Warm, rich, and creamy hot chocolate.</div><div class="menu-card-footer"><span class="menu-card-price">$3.00</span><button class="add-btn" onclick="addToCart('Hot Chocolate', 3.00)">+</button></div></div>
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
   </div>
 
   <div style="font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--muted); margin: 1.5rem 0 0.75rem; font-style:italic;">🍓 Fruit Tea w/ Cheese Foam Smoothie</div>
   <div class="menu-grid" data-cat="drink">
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍓</div><div class="menu-card-name">Strawberry Tea w/ Cheese Foam</div><div class="menu-card-desc">Fresh strawberry tea smoothie topped with creamy cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Strawberry Tea w/ Cheese Foam', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🫐</div><div class="menu-card-name">Strawberry & Blueberry Tea w/ Cheese Foam</div><div class="menu-card-desc">A berry blend smoothie with cheese foam — sweet and refreshing.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Strawberry & Blueberry Tea w/ Cheese Foam', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍉</div><div class="menu-card-name">Watermelon Tea w/ Cheese Foam</div><div class="menu-card-desc">Fresh watermelon tea smoothie with a savory cheese foam topping.</div><div class="menu-card-footer"><span class="menu-card-price">$5.00</span><button class="add-btn" onclick="addToCart('Watermelon Tea w/ Cheese Foam', 5.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🥭</div><div class="menu-card-name">Mango Tea w/ Cheese Foam</div><div class="menu-card-desc">Tropical mango fruit tea smoothie with cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Mango Tea w/ Cheese Foam', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍍</div><div class="menu-card-name">Pineapple Tea w/ Cheese Foam</div><div class="menu-card-desc">Tangy pineapple tea smoothie topped with creamy cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Pineapple Tea w/ Cheese Foam', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍑</div><div class="menu-card-name">Peach Tea w/ Cheese Foam</div><div class="menu-card-desc">Sweet peach tea smoothie with a creamy cheese foam top.</div><div class="menu-card-footer"><span class="menu-card-price">$6.00</span><button class="add-btn" onclick="addToCart('Peach Tea w/ Cheese Foam', 6.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍇</div><div class="menu-card-name">Grape Tea w/ Cheese Foam</div><div class="menu-card-desc">Rich grape tea smoothie with cheese foam topping.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Grape Tea w/ Cheese Foam', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍈</div><div class="menu-card-name">Green Grape Tea w/ Cheese Foam</div><div class="menu-card-desc">Light green grape tea smoothie topped with creamy cheese foam.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Green Grape Tea w/ Cheese Foam', 5.50)">+</button></div></div>
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
   </div>
 
   <div style="font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--muted); margin: 1.5rem 0 0.75rem; font-style:italic;">☕ Coffee</div>
   <div class="menu-grid" data-cat="drink">
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🧊</div><div class="menu-card-name">Ice Latte</div><div class="menu-card-desc">Creamy espresso blended with milk and served over ice. 16oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.75</span><button class="add-btn" onclick="addToCart('Ice Latte', 4.75)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌿</div><div class="menu-card-name">Ice Vanilla Latte</div><div class="menu-card-desc">Smooth espresso with vanilla syrup and milk over ice. 16oz.</div><div class="menu-card-footer"><span class="menu-card-price">$5.25</span><button class="add-btn" onclick="addToCart('Ice Vanilla Latte', 5.25)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">☕</div><div class="menu-card-name">Hot Latte</div><div class="menu-card-desc">Rich espresso with steamed milk and a delicate layer of foam.</div><div class="menu-card-footer"><span class="menu-card-price">$4.75</span><button class="add-btn" onclick="addToCart('Hot Latte', 4.75)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌿</div><div class="menu-card-name">Hot Vanilla Latte</div><div class="menu-card-desc">Creamy milk with espresso and vanilla — warm and comforting.</div><div class="menu-card-footer"><span class="menu-card-price">$5.25</span><button class="add-btn" onclick="addToCart('Hot Vanilla Latte', 5.25)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍮</div><div class="menu-card-name">Ice Caramel Macchiato</div><div class="menu-card-desc">Espresso with steamed milk, caramel sauce, and a hint of vanilla.</div><div class="menu-card-footer"><span class="menu-card-price">$5.50</span><button class="add-btn" onclick="addToCart('Ice Caramel Macchiato', 5.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">☕</div><div class="menu-card-name">Hot Mocha Cappuccino</div><div class="menu-card-desc">Rich espresso with steamed milk and a frothy layer. S/M/L available.</div><div class="menu-card-footer"><span class="menu-card-price">$3.00</span><button class="add-btn" onclick="addToCart('Hot Mocha Cappuccino', 3.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">☕</div><div class="menu-card-name">Black Hot Coffee</div><div class="menu-card-desc">Rich, bold black coffee. Small, medium, or large.</div><div class="menu-card-footer"><span class="menu-card-price">$2.00</span><button class="add-btn" onclick="addToCart('Black Hot Coffee', 2.00)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🧊</div><div class="menu-card-name">Ice Americano</div><div class="menu-card-desc">Rich espresso blended with cold water. 16oz.</div><div class="menu-card-footer"><span class="menu-card-price">$3.50</span><button class="add-btn" onclick="addToCart('Ice Americano', 3.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">☕</div><div class="menu-card-name">Hot Americano</div><div class="menu-card-desc">Espresso with hot water — smooth and robust. 16oz.</div><div class="menu-card-footer"><span class="menu-card-price">$3.50</span><button class="add-btn" onclick="addToCart('Hot Americano', 3.50)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌿</div><div class="menu-card-name">Hot French Vanilla</div><div class="menu-card-desc">Warm and smooth French vanilla coffee — sweet and comforting.</div><div class="menu-card-footer"><span class="menu-card-price">$3.00</span><button class="add-btn" onclick="addToCart('Hot French Vanilla', 3.00)">+</button></div></div>
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
   </div>
 
   <div style="font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--muted); margin: 1.5rem 0 0.75rem; font-style:italic;">🥤 Smoothies (24oz)</div>
   <div class="menu-grid" data-cat="drink">
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍫</div><div class="menu-card-name">Chocolate Smoothie</div><div class="menu-card-desc">Rich and creamy chocolate smoothie. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Chocolate Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍓</div><div class="menu-card-name">Strawberry Smoothie</div><div class="menu-card-desc">Fresh and fruity strawberry smoothie. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Strawberry Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🥭</div><div class="menu-card-name">Mango Smoothie</div><div class="menu-card-desc">Tropical mango blended into a creamy smoothie. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Mango Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍈</div><div class="menu-card-name">Honeydew Smoothie</div><div class="menu-card-desc">Light and sweet honeydew smoothie. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Honeydew Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🟣</div><div class="menu-card-name">Taro Smoothie</div><div class="menu-card-desc">Creamy taro smoothie — sweet and earthy. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Taro Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🍌</div><div class="menu-card-name">Banana Smoothie</div><div class="menu-card-desc">Sweet and creamy banana smoothie. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Banana Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🥥</div><div class="menu-card-name">Coconut Smoothie</div><div class="menu-card-desc">Tropical coconut smoothie — refreshing and creamy. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Coconut Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">☕</div><div class="menu-card-name">Mocha Smoothie</div><div class="menu-card-desc">Rich mocha blended into a smooth, creamy drink. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Mocha Smoothie', 4.95)">+</button></div></div>
-    <div class="menu-card" data-cat="drink"><div class="menu-card-emoji">🌿</div><div class="menu-card-name">Vanilla Smoothie</div><div class="menu-card-desc">Classic vanilla smoothie — sweet and satisfying. 24oz.</div><div class="menu-card-footer"><span class="menu-card-price">$4.95</span><button class="add-btn" onclick="addToCart('Vanilla Smoothie', 4.95)">+</button></div></div>
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
+    <div class="menu-card" data-cat="drink">
   </div>
 
   <!-- COMBOS -->
   <h2 class="menu-section-title" data-cat="combo" style="border-color: var(--red);">🎁 Combos</h2>
   <div class="menu-grid" data-cat="combo">
     <div class="menu-card" data-cat="combo" style="border-color:var(--gold); background:var(--gold-light);">
-      <div class="menu-card-emoji">🌭☕</div>
+      
       <div class="menu-card-name">Hotdog, Egg & Cheese Croissant + Black Coffee (M)</div>
       <div class="menu-card-desc">Hotdog, egg & cheese croissant sandwich paired with a medium hot black coffee. Save big!</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.25</span><button class="add-btn" onclick="addToCart('Hotdog Egg Cheese Croissant + Coffee Combo', 7.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="combo" style="border-color:var(--gold); background:var(--gold-light);">
-      <div class="menu-card-emoji">🍖☕</div>
+      
       <div class="menu-card-name">Ham, Egg & Cheese Croissant + Black Coffee (M)</div>
       <div class="menu-card-desc">Ham, egg & cheese croissant sandwich with a medium hot black coffee. Great value!</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.25</span><button class="add-btn" onclick="addToCart('Ham Egg Cheese Croissant + Coffee Combo', 7.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="combo" style="border-color:var(--gold); background:var(--gold-light);">
-      <div class="menu-card-emoji">🥓☕</div>
+      
       <div class="menu-card-name">Bacon, Egg & Cheese Croissant + Black Coffee (M)</div>
       <div class="menu-card-desc">Crispy bacon, egg & cheese croissant with a medium hot black coffee combo.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$7.25</span><button class="add-btn" onclick="addToCart('Bacon Egg Cheese Croissant + Coffee Combo', 7.25)">+</button></div>
     </div>
     <div class="menu-card" data-cat="combo" style="border-color:var(--gold); background:var(--gold-light);">
-      <div class="menu-card-emoji">❤️</div>
+      
       <div class="menu-card-name">Five Heart Bread (5 Brioche Buns)</div>
       <div class="menu-card-desc">Coconut, chocolate, coffee, pandan & earl grey tea — five heart-shaped brioche buns.</div>
       <div class="menu-card-footer"><span class="menu-card-price">$15.99</span><button class="add-btn" onclick="addToCart('Five Heart Bread Combo', 15.99)">+</button></div>
